@@ -1,19 +1,112 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html>
 
-    <title>Collapsible Tree Example</title>
-    
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-  </head>
+<head>
+<title>Adaptive Map</title>
 
-  <body>
-    <!-- load the d3.js library -->
-    <script src="d3/d3.min.js"></script>
-    <script src="js/tree-test.js"></script>
-	<div id="tooltip">
-    
-	</div>
-  </body>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34631101-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<div id="header">
+		<div id="headerlogo">
+			<img alt="Adaptive Map Logo" height="77" src="icons/titleicon.png" width="300">
+		</div>
+		<div id="headercourse">
+			<h2>Engineering Statics</h2>
+		</div>
+</div>
+
+<div id="navmenu">
+
+<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="about.html">About</a></li>
+	<li><a href="tutorial.html">Tutorial</a></li>
+	<li><a href="content.html">Content Pages</a></li>
+	<li><a href="contributing.html">Contributing</a></li>
+	<li><a href="troubleshooting.html">Troubleshooting</a></li>
+    <li><a href="sandbox.html">Sandbox</a></li>
+</ul>
+
+</div>
+
+<div id="maincontent">
+
+<h2>What is the Adaptive Map Tool:</h2>
+
+<p>The Adaptive Map is a tool to store, organize and display large sets of interrelated information in a way that is both meaningful and easily understandable to the user.  The tool aims to mimic the way people organize knowledge in their head, in sets of interrelated networks.  Currently the content is built upon an expert's knowledge of engineering statics and serves as digital textbook for an engineering statics course.</p>
+
+<p>The video below shows the Adaptive Map software in use, so that you can get a feel for how the software works.</p>
+
+<div id="video">
+<iframe width="640" height="480" src="http://www.youtube.com/embed/YPBkp70lZog" frameborder="0" allowfullscreen margin-left="auto" margin-right="auto"></iframe>
+</div>
+
+<p>The software is free to download and use.  To run the software, you will first need to install Java on your machine if it is not already installed.  Go to <a href="http://www.java.com/en/">http://www.java.com/en/</a> to see instructions on downloading Java.  After you have Java installed, you can download the Adaptive Map software with the button below.  Simply download the jar file and run it on your computer.  The software pulls the content from the central server, so you never have to worry about your textbook becoming out of date.</p>
+
+<p>Currently the software is being upgraded. Please be patient while the 
+software is under revision. The content can still be directly accessed by using 
+the &quot;Content&quot; tab on the top of the page.</p>
+
+<!--
+<div style="text-align:center">
+<a href="AdaptiveMapDownload.jar"><img src="button.png"/></a>
+</div>
+-->
+
+<p>More information on the Adaptive Map project is available through the other 
+pages on the site. See the &quot;Tutorial&quot; page for detailed instructions on using 
+the Adaptive Map tool to it's full potential, see the &quot;Content&quot; page to directly 
+access the content pages in the digital textbook, see the &quot;Contributing&quot; page 
+for more information on the software and content developers and to see how you 
+can help out with the project, and see the troubleshooting page for assistance 
+with any technical problems with the software or content.</p>
+
+</div>
+
+<div id="footer">
+<table>
+	<tr>
+		<td style="width:200px"><img alt="Creative Commons Icon" height="31" src="icons/cc_icon.png" width="88"></td>
+		<td style="width:200px"><img alt="GNU Icon" height="98" src="icons/GNU_logo.jpg" width="100"></td>
+		<td style="width:200px"><img alt="NSF Icon" height="100" src="icons/NSF_Logo.jpg" width="100"></td>
+	</tr>
+	<tr>
+		<td style="width:200px">
+			Author: <a href="http://www.personal.psu.edu/jpm46/">Dr. Jacob Moore</a> has licensed the content, including the webpages and the concept 				map, under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/"> Creative Commons Attribution-NonCommercial 3.0 Unported 			License</a>.
+		</td>
+		<td style="width:200px">
+			Software Developers: Nathanael Bice, Lauren Gibboney, Joseph Luke, James McIntyre, John Nein, Tucker Noia, Michel Pascale, Joshua Rush, and 			Shawn Shroyer have licenced this software under a <a href="http://www.gnu.org/licenses/quick-guide-gplv3.html">GNU General Public License, 			version 3</a>.
+		</td>
+		<td style="width:200px">
+			This work was partially supported by the U.S. National Science Foundation Award # TUES-1044790. Any opinions, findings, and conclusions or 			recommendations expressed in this material are those of the author and do not necessarily reflect the views of the National Science 				Foundation.
+		</td>
+	</tr>
+</table>
+</div>
+
+
+</div>
+
+</body>
+
 </html>

@@ -1,0 +1,60 @@
+{
+    "name": "Statics",
+    "children":
+    [{
+       "name": "Newton's Third Law",
+       "description": "Newton’s third law states that for every force exerted on a body, there must be an equal and opposite force the body exerts back.",
+       "url": "http://#"
+      },
+      {
+        "name": "Structures",
+        "description": "A structure is any collection of connected bodies, called members.",
+        "url": "http://#",
+        "children":
+        [{
+            "name": "Frames and Machines",
+            "description": "Frames and machines are structures with at least one member that is not a two force member. Frames are rigid while the members in machines can move or rotate relative to one another.",
+            "url": "http://#",
+            "children":
+            [{
+                "name": "Analysis of Frames and Machines",
+                "description": "Frames and machines are structures with at least one member that is not a two force member. Frames are rigid while the members in machines can move or rotate relative to one another.",
+                "url": "http://#"
+            }]    
+        }]
+    },
+    {
+        "name": "Couples",
+        "description": "A couple is a set of equal and opposite but not collinear forces that will exert a net moment without a net force.",
+        "url": "http://#",
+        "children":
+        [{
+        "name": "Two Force Members",
+         "description": "A two force member is a member that has forces acting on it in on it in only two locations.",
+         "url": "http://#",
+         "children":
+         [{
+             "name": "Trusses",
+             "description": "A truss is a structure that consists entirely of two force members.",
+             "url": "http://#",
+             "children":
+             [{
+                 "name": "Method of Sections",
+                 "description": "The method of sections involves cutting the truss into imaginary sections and then performing an equilibrium analysis of each section.",
+                 "url": "http://#"
+             },
+             {
+                 "name": "Method of Joints",
+                 "description": "The method of joints involves performing an equilibrium analysis on each of the connection points where the two force members come together.",
+                 "url": "http://#"
+             }]
+         }]
+    }]
+         },
+         {
+             "name": "Static Equilibrium",
+             "description": "A body in static equilibrium is a body that is not accelerating, which by default means the net forces on the body are zero.",
+             "url":"http://#"
+         }]
+            
+}
